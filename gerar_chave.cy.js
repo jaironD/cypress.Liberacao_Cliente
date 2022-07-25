@@ -2,7 +2,7 @@
 
 context('Gerar chave manual', () =>{
   it('Possibilidade de gerar a chave manual', () =>{
-    cy.visit('192.168.15.224:3001/login')
+    cy.visit('192.168.**.***:****/login')
 
     var login ={
       nome:'JAIRON',
@@ -10,7 +10,6 @@ context('Gerar chave manual', () =>{
     }
 
     var registro = {
-      reg:'05828526000188',
       dias:'20',
     }
 
@@ -37,7 +36,7 @@ context('Gerar chave manual', () =>{
   })
 
   it('Possibilidade de bloquear manualmente', () =>{
-    cy.visit('192.168.15.224:3001/login')
+    cy.visit('192.168.**.***:****/login')
 
     var login ={
     nome:'JAIRON',
@@ -80,7 +79,7 @@ context('Gerar chave manual', () =>{
   })
 
   it('Gerar mensagem especifica', () =>{
-    cy.visit('192.168.15.224:3001/login')
+    cy.visit('192.168.**.***:****/login')
 
     var login ={
     nome:'JAIRON',
@@ -148,7 +147,7 @@ context('Gerar chave manual', () =>{
     })
 
   it('Enviar Arquivo', () =>{
-    cy.visit('192.168.15.224:3001/login')
+    cy.visit('192.168.**.***:****/login')
 
       var login ={
       nome:'JAIRON',
